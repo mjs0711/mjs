@@ -1,0 +1,20 @@
+package mjs;
+
+public class variable {
+
+	public static void main(String[] args) {
+		// 1.변수하나만들기(변수명자유,int형)
+		// 2.변수에 18 저장하기
+		// 3.변수 출력하기
+		// 4.변수에 생일 저장하기
+		// 5.변수 출력하기
+		int b = 18;
+		System.out.println(b);
+		int c = 0711;
+		System.out.println(c);
+		
+		
+
+	}
+
+}
