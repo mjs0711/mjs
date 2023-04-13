@@ -1,0 +1,18 @@
+package mjs;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int 아무거나 = 18;
+		int 아무거나더하기일 = ++아무거나; // 전위 연산자
+		System.out.println("++아무거나:"+아무거나더하기일);
+		
+		아무거나 = 18;
+		아무거나더하기일 = 아무거나++; // 후위 연산자
+		System.out.println("아무거나++:"+아무거나더하기일);
+		
+	}	
+	
+}
