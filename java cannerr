@@ -1,0 +1,25 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+        // 화면 확대 : ctrl + '+'
+		Scanner sc = new Scanner(System.in);
+	  //클래스      인스턴스
+		
+		System.out.println("야 숫자 하나 입력해봐라");
+		int num = sc.nextInt();
+		System.out.println(num);	
+		
+		// num이 18보다 작냐?
+		if (num<18)
+			System.out.println("num이 18보다 작네.");
+		else
+			System.out.println("num이 18보다 작지 않다.");
+	    
+		
+	}
+
+}
