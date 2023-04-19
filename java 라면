@@ -1,0 +1,49 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// 라면 끓이기
+		
+		// 물 끓이기
+		
+		// 물이 끓면 스프,면을 넣는다
+		
+		//4분 더 끓인다
+		
+		// 먹는다
+		Scanner sc = new Scanner(System.in);
+				
+		System.out.println("라면을 끓여보자!!");
+		System.out.println("가스레인지 앞에 섰다.");
+		System.out.println("1.불을 킨다  2.귀찮다.생라면 ㄱㄱ");
+		int ㄻ = sc.nextInt();
+		
+		if (ㄻ==1) {
+		   System.out.println("가스버너가 켜집니다. 틱틱틱");
+		   System.out.println("물이 끓는다 부글부글");
+		   System.out.println("1.면 스프를 넣는다.  2.귀찮다.그냥 편의점가자.");
+		   int ㄻ2 = sc.nextInt();
+		   if(ㄻ2==1) {
+			   	System.out.println("면과 스프를 넣고 2분 더 끓였다");
+			   	System.out.println("야무지게 먹어야지~후루루룰ㄹ!");
+		   } else if(ㄻ2==2) {
+			   System.out.println("불을 끄고 갑니다 ㅃ2");
+		   } else {
+			   System.out.println("1, 2중에 하나만 입력해야 합니다! 빠이");	   
+		   } 
+			   
+		} else if(ㄻ==2) {
+			System.out.println("생라면 먹자 버억버억");
+		} else {
+		    System.out.println("1,2중에 하나만 입력해야됩니다!");
+		}
+		
+	
+	}
+
+}
