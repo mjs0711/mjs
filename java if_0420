@@ -1,0 +1,21 @@
+package mjss;
+
+public class Random_0420 {
+
+	public static void main(String[] args) {
+//         if(조건) {
+//		      조건이 참이면 실행;
+//		   }
+		   // 1부터 10까지 출력하는 반복문
+		   int 숫자 = 1;
+		   if(숫자!=10) { // 1<=10, 2<=10. . 10<=10 11<=10
+			    // 조건이 참이면 실행;
+			   	System.out.println(숫자); //1, 2, 10
+			   	숫자++;
+		   }   		   
+			   // 조건이 참이면 실행;
+			   // flag 변수 ++;
+			   // break;	
+	}
+
+}
