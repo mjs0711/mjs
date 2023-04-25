@@ -1,0 +1,26 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		
+		// 구구단 만들기
+		Scanner sc = new Scanner(System.in);
+		System.out.println("몇단 보고 싶은데?");
+		
+		int 몇단 = sc.nextInt();
+		
+		int 곱 = 1;
+		while(곱<=9) {   //1~9
+//			조건이 참인동안 실행할 문장;
+//			System.out.println(몇단+" * 1~9 = "+(몇단*1~9));			
+//			System.out.println(몇단+" * "+곱+" = "+(몇단*곱));
+			System.out.println(몇단+" * "+곱+" = "+(몇단*곱));
+			곱++;
+		}
+				
+	}
+
+}
