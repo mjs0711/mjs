@@ -1,0 +1,36 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) { 
+		
+		Scanner scan = new Scanner(System.in);
+//		 몇단'볼지 입력받아서
+		System.out.println("몇단 볼래");
+		int 몇단 = scan.nextInt();
+		
+//		'몇까지 곱할지'입력받아서
+		System.out.println("몇까지 고팔래?");
+		int 고팔수 = scan.nextInt();   //3
+		
+//		System.out.println(18 * 1 = 18);
+//		System.out.println(18 * 2 = 36);
+//		System.out.println(18 * 3 = 54);
+// 						   몇단 * 1 = (몇단*1)
+		int i = 1;
+		
+		while(i <= 고팔수) { //조건 -> 1가 고팔수보다 작은동안
+			System.out.println(몇단+" * "+i+" = "+(몇단*i));
+		}
+		
+		
+//		출력하는 프로그램
+		
+		
+		
+		
+	}
+
+}
