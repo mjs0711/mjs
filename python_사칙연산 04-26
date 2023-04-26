@@ -1,0 +1,19 @@
+# 1.첫번쨰 값을 입력받습니다.
+# 2.연산자를 입력받습니다.
+# 3.피연산자를 입력받습니다.
+# 4.값을 출력합니다
+
+a = int(input('연산할 값 : '))
+b = input()
+c = int(input("input second number : "))
+
+
+
+if b == "+" :
+ print(a+c)
+elif c == "-" :
+  print(a-c)
+elif c == "*" :
+ print(a*c)
+elif c == "/" :
+  print(a/c)
