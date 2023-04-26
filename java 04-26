@@ -1,0 +1,27 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		// 1부터 입력한 정수 중에서 2또는 3의 배수가 아닌 수의 총합을 구하시오
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자 입력해봐");
+		int	num = sc.nextInt();
+		int 결과 = 0;
+		
+		for(int i=1; i<=num; i+) {
+			// i 너 2의 배수야? 또는 3의 배수야?
+			if(i%2!=0 || i%3!=0) {
+				결과 = 결과 + i;
+			}
+		}
+		System.out.println(결과);
+        
+        
+        
+        
+	}
+
+}
