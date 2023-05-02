@@ -1,0 +1,29 @@
+ package mjs;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+			
+//		int[] 배열 = new int[100];
+//		int 배열2[] = new int[100];	
+		int[] 배열 = new int[5];
+		int 엿 = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		while(엿<5) {	
+			System.out.println("값을 입력하세요!");
+			배열[엿] = sc.nextInt();
+			엿++;
+		}
+		
+		배열[0] = sc.nextInt();
+		배열[1] = sc.nextInt();
+		배열[2] = sc.nextInt();
+		배열[3] = sc.nextInt();
+		배열[4] = sc.nextInt();
+	}	
+}
