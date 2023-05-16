@@ -1,0 +1,29 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		char a = 'S';
+		System.out.println(a);
+		char b = 'U';
+		System.out.println(b);
+		char c = 'N';
+		System.out.println(c);
+		char d = 'G';
+		System.out.println(d);
+		char e = 'I';
+		System.out.println(e);
+		char f = 'L';
+		System.out.println(f);
+		
+		int sum = a+b+c+d+e+f;
+		
+		System.out.println(sum);
+		
+	}
+
+}
