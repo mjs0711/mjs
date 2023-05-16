@@ -1,0 +1,31 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		float 몸무게 = sc.nextInt();
+		System.out.println("키?");
+		float 키 = sc.nextInt();
+			
+		// 비만도 계산하기
+		float bmi = 몸무게 / (키 * 키);
+		
+		// 비만도에 따라 출력하기
+		if(bmi < 18.5) { // 18.5 미만
+			System.out.println("저체중입니다.");
+		} else if(bmi <= 24.9) { // 18.5~24.9
+			System.out.println("건강합니다.");
+		} else if(bmi <= 29.9) {
+			System.out.println("과체중입니다.");
+		} else if(bmi >= 30) {
+			System.out.println("qlask입니다.");
+		} else {
+			System.out.println("값 오류");
+		}
+	}
+
+}
