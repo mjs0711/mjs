@@ -1,0 +1,37 @@
+package mjs;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Random rd = new Random();
+		
+		//가로 - 행(row)
+		System.out.println("가로?");
+		int rows = sc.nextInt();
+		
+		//세로 - 열(column)
+		System.out.println("세로?");
+		int cols = 0;
+		int[][] 자리 = new int[rows][cols];
+		
+		
+		//랜덤 뽑기
+		for(int i=0; i<자리[1].length; i++) {
+			for(int j=0; j<자리.length; j++) {
+				
+			}
+		}
+		
+		for(int i=0; i<자리[rows-1].length; i++) {
+			for(int j=0; j<자리.length; j++) {
+				System.out.println(자리[i][j]+"  ");
+			}
+			System.out.println();
+		}
+	}
+}
