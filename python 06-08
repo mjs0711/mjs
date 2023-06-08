@@ -1,0 +1,12 @@
+n = input
+
+if n=="수":
+ print("A")
+elif n=="우":
+  print("B")
+elif n=="미":
+  print("C")
+elif n=="양":
+  print("D")
+elif n=="가":
+  print("E")
