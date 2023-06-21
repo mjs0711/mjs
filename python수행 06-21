@@ -1,0 +1,6 @@
+# 3개의 장수를 "공백"을 기준으로 입력
+# 짝수 출력
+a = list (map(int,input(),split()))
+for i in a
+if i%2 == 0 
+print(i)
