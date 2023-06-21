@@ -1,0 +1,50 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs1 {
+
+   public static void (String[] args) {
+	// 두 수를 입력받아서
+	Scanner sc = new Scanner(System.in);
+	int num1, num2;
+
+	System.out.print("num1?");
+	num1 = sc.nextInt();
+	System.out.print("num2?");
+	num2 = sc.nextInt();
+	
+	// 사칙연산을 선택하게끔
+	System.out.print("+(1) -(2) *(3) /(4)");
+	int op = sc.nextInt();		
+	double result = 0;
+	
+	// 계산 결과를 출력
+	switch(op) {
+	case 1:
+		// result = num1+num2;
+		result = add(num1, num2);
+		break;
+	case 2:
+		result = num1-num2;
+		break;
+	case 3:
+		result = num1*num2;
+		break;
+	case 4:
+		// 더블 = 인트/인트
+		result = (double)num1/num2;
+		break;
+	default:
+		System.out.print("응 다시해~");		
+	}
+	System.out.println("결과: "+result);
+}
+// int num1, num2;
+// add(num1, num2);
+					// 3        5
+static int add(int 숫자1, int 숫자2) {
+	//숫자1 = 3, 숫자2 = 5
+	int 결과 = 숫자1 + 숫자2;
+	return 결과;
+}
