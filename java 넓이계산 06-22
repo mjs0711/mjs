@@ -1,0 +1,28 @@
+package mjs;
+
+import java.util.Scanner;
+
+public class Mjs {
+
+	public static void main(String[] args) {
+		// 직사각형의 넓이
+		// 가로, 세로를 입력
+		Scanner sc 	= new Scanner(System.in);
+		System.out.print("가로? ");
+		int 가로 = sc.nextInt();
+		System.out.print("세로? ");
+		int 세로 = sc.nextInt();
+		
+		// 넓이 계산 메소드 호출
+		int 넓이 = 넓이계산(가로, 세로);
+		 
+		// return 된 결과를 출력
+		System.out.println(가로+""+세로+""+넓이);1
+	}
+	
+	static void 넓이계산(int num1, int num2) {
+		int result = num1 * num2;
+		return result;
+			
+	}
+}
