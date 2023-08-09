@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- 이 문서는 HTML5다. -->
+
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>자바 몇시에 끝나?</title>
+</head>
+<body>
+      <!-- 블록 요소 -->
+     <div class="c" id="c"></div>
+       <h6>바람아 불어라</h6>
+       <h2>바람이 분다~~</h2>
+     <div></div>
+        
+
+        <!-- 인라인 요소 -->
+        <span>바람아<br>불어라</span>
+        <span>바람아 불어라</span>
+
+        <blockquote cite="naver.com">ㅋㅋㅋ</blockquote>
+</body>
+</html>
