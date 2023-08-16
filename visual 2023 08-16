@@ -1,0 +1,24 @@
+<!-- 느낌표 엔터 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08-16 방과후 3번째 시간</title>
+</head>
+
+<!-- 주석 (COMMET) : 컨트롤 + / -->
+<body>
+    <h1>Lorem Ipsum(로렙 입섬)</h1>
+    
+    <h2>what is Lorem Ipsum?</h2>
+    <p>Lorem Ipsum is simply dummy text of<br>
+         the printing and typesetting industry.<br>
+         Lorem Ipsum has been the industry<br>
+        's standard dummy text ever since the 1500s,<br>
+         when an unknown printer took a galley of<br>
+          type and scrambledit to make a type<br>
+         specimen book<br>
+    </p>
+</body>
+
+</html>
