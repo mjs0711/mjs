@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>11212</title>
+</head>
+
+<body>
+    <div>
+        <h2>소제목</h2>
+        <p>
+            주현아 자리에 앉아라
+            주현아 자리에 앉아라
+            주현아 맛있겠다
+            주현아 화이팅
+        </p>
+    </div>
+
+    <!--u1 :  점 - 순서가 없는 -->
+    <!-- o1 : 숫자 -순서가 있는 -->
+    <div>
+        <h2>오늘 먹을 간식</h2>
+        <o1>
+            <i1><a href="https://naver.com" target="_blank">초코파이</i1>a></i1>
+            <i1>펩시콜라</i1>
+            <i1>옥수수</i1>
+        </o1>
+    </div>
+
+    <img src="다운로드.jfif" alt="">
+
+
+</body>
+
+</html>
