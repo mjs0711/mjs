@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 페이지</title>
+</head>
+<body>
+    <h2>회원가입 페이지</h2>
+
+    <form action="join.html">
+    <div>
+        
+        아이디
+        <input type="text" name="id"
+        
+    </div>
+
+        비밀번호
+        <input type="password" name="pw"
+    </form>
+</body>
+</html>
