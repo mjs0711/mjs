@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="a.html" method="post"> 
+        <input type="text" name="id">
+        아이디
+        <input type="text" name="id">
+
+        <div><input type="submit" value="전송"></div>
+        <!-- div - 블록(Block)속성 -->
+    </form>
+</body>
+</html>
