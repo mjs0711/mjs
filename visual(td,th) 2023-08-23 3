@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>표(table)</h2>
+    <table border="1">
+        <tr>
+            <th>이름</th>
+            <td>민지성</td>
+        </tr>
+        <tr>
+            <th>주소</th>
+            <td>경기도 광주시 태전동</td>
+        </tr>
+        <tr>
+            <th>전화번호</th>
+            <td>010-5877-8585</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
