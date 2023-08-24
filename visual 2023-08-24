@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>1-12 시간표</h2>
+
+    <!-- table>tr*8>td*6 -->
+    <table border="1" style="text-align:center;">
+        <tr style="background-color: lightsteelblue;">
+            <th style="width: 70px">교시</th>
+            <th style="width: 70px">월</th>
+            <th style="width: 70px">화</th>
+            <th style="width: 70px">수</th>
+            <th style="width: 70px">목</th>
+            <th style="width: 70px">금</th>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">1</th>
+            <td>영어</td>
+            <td>데베프</td>
+            <td>정보</td>
+            <td>응프화</td>
+            <td>수학</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">2</th>
+            <td>수학</td>
+            <td>데베프</td>
+            <td>정보</td>
+            <td>응프화</td>
+            <td>일본</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">3</th>
+            <td>국어</td>
+            <td>영어</td>
+            <td>일본</td>
+            <td>영어</td>
+            <td>영어</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">4</th>
+            <td>체육</td>
+            <td>수학</td>
+            <td>국어</td>
+            <td>음악</td>
+            <td>국어</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">5</th>
+            <td>통과</td>
+            <td>체육</td>
+            <td>수학</td>
+            <td>정보</td>
+            <td>창체</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">6</th>
+            <td>데베프</td>
+            <td>진로</td>
+            <td>통과</td>
+            <td>통과</td>
+            <td>창체</td>
+        </tr>
+        <tr>
+            <th style="background-color: lightsteelblue;">7</th>
+            <td>응프화</td>
+            <td colspan="2"></td>
+            <td></td>
+            <td>국어</td>
+            <td>창체</td>
+        </tr>
+    </table>
+</body>
+</html>
