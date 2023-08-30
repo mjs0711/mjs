@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS 두번째 시간</h1>
+
+
+    <div>
+        <h2>ul-li 태그</h2>
+        <!-- ul>li*3 -->
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>이미지 태그</h2>
+        <img src="하르방.jfif" alt="하르방">
+    </div>
+
+    <div>
+        <h2>문단 태그</h2>
+        <h3>Lorem ipsum</h3>
+        <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Veniam aperiam voluptatum neque a tenetur,<br>
+            est dignissimos quidem tempore quam libero quisquam ullam nulla,<br>
+            animi iste?<br>
+            Veniam corrupti sequi beatae placeat.<br>
+        </P>
+    </div>
+</body>
+</html>
