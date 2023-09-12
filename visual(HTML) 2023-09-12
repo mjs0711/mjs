@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>상대 단위에 대해 알아보자.</h2>
+
+    <p class="px">절대단위 - px</p>
+    <p class="per">절대단위 - per</p>
+    <p class="em">절대단위 - em</p>
+    <p class="rem">절대단위 - rem</p>
+    <p class="vw">절대단위 - vw</p>
+    <p class="vh">절대단위 - vh</p>
+    
+</body>
+
+</html>
