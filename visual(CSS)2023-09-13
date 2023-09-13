@@ -1,0 +1,26 @@
+.frontFamily {
+    font-family: "한초롬바탕", "Georgia";
+    color: pink;
+    font-weight: bold;
+}
+
+
+.frontFamily span {
+    color: red;
+    font-size: 2em;
+}
+
+.textAlignLeft {
+    text-align: Left;
+    height: 100px;
+}
+
+.textAligncenter {
+    text-align: center;
+    height: 100px;
+}
+
+.textAlignRight {
+    text-align: right;
+    height: 100px;
+}
