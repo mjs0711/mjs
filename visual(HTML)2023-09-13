@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- frontFamily -->
+    <div class="frontFamily">
+        잘생긴정연택<span>yeontaek</span>
+    </div>
+
+    <div class="textAlignLeft">왼쪽정렬</div>
+    <div class="textAlignCenter">가운데정렬</div>
+    <div class="textAlignRight">오른쪽정렬</div>
+</body>
+
+</html>
