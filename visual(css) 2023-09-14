@@ -1,0 +1,25 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.box1 div {
+    border: 2px solid black;
+}
+
+.a {
+    background-color: #4d4dcc88;
+    padding: 20px;  
+    box-sizing: border-box;
+}
+
+.b {
+    background-color: #4d4dcc44;
+}
+
+.c {
+    background-color: #4d4dcc22;
+}
