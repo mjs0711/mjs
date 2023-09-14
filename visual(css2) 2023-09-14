@@ -1,0 +1,31 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.box1 div {
+    border: 2px solid black;
+}
+
+.a {
+    position: static;
+    left: 15px;
+    background-color: #4d4dcc88;
+    padding: 20px;  
+    box-sizing: border-box;
+}
+
+.b {
+    position: absolute;
+    background-color: #4d4dcc44;
+    /* box-sizing: content-box; */
+    display: inline-block;
+}
+
+.c {
+    position: relative;
+    background-color: #4d4dcc22;
+}
