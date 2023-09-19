@@ -1,0 +1,75 @@
+<-- css !-->
+.position div {
+    width: 100px;
+    height: 100px;
+}
+
+.float div {
+    width: 100px;
+    height: 100px;
+}
+
+.display div {
+    width: 100px;
+    height: 100px;
+}
+
+.a {
+    background-color: red;
+}
+
+.b {
+    background-color: orange;
+}
+
+.c {
+    background-color: yellow;
+}
+
+.position .a {
+    position: absolute;
+    left: 0px;
+}
+
+.position .b {
+    position: absolute;
+    left: 100px;
+}
+
+.position .c {
+    position: absolute;
+    left: 200px;
+}
+
+.position {
+    position: relative;
+    height: 100px;
+}
+
+.float .a {
+    float: left;
+}
+
+.float .b {
+    float: left;
+}
+
+.float .c {
+    float: left;
+}
+
+.float {
+    height: 100px;
+}
+
+.display .a {
+    display: inline-block;
+}
+
+.display .b {
+    display: inline-block;
+}
+
+.display .c {
+    display: inline-block;
+}
