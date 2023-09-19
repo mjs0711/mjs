@@ -1,0 +1,31 @@
+<-- html !-->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="position">
+        <div class="a">민</div>
+        <div class="b">지</div>
+        <div class="c">성</div>
+    </div>
+
+    <div class="float">
+        <div class="a">박</div>
+        <div class="b">준</div>
+        <div class="c">혁</div>
+    </div>
+
+    <div class="display">
+        <div class="a">최</div>
+        <div class="b">지</div>
+        <div class="c">민</div>
+    </div>
+</body>
+
+</html>
