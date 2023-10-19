@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header h1 {
+    width: 500px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #ffffff80;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
