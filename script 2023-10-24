@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var age = prompt("당신의 나이는", "0");
+        if(age>=20) {
+            document.write("당신은 성인.");
+        } else {
+            document.ride("당신은 미성년자.");
+        }
+    </script>
+</body>
+
+</html>
