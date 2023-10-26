@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var str = "<table border='1'>";
+        str += "<tr>";
+        str += "<td>1</td><td>2</td><td>3<td>";
+        str += "</tr>";
+        str += "</table>";
+        document.write(str);
+
+    </script>
+</body>
+
+</html>
