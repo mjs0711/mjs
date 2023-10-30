@@ -1,0 +1,23 @@
+create table student_tbl_01 (
+stu_id number(5) primary key,
+stu_name varchar2(20),
+gender varchar2(3),
+phone varchar2(20),
+t_id number(3));
+
+create table teacher_tbl_01 (
+t_id number(3) primary key,
+t_name varchar2(20),
+subject varchar2(50),
+club varchar2(30));	
+
+
+create sequence stu_seq
+start with 10101
+increment by 1
+maxvalue 10130
+minvalue 10101
+nocycle;	
+
+insert into student_tbl_01 values
+(stu_seq.nextval, '김현수','남','010-2222-7777',3);	
