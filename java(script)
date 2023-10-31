@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var 이름 = prompt("이름이 뭐에요?", "홍길동");
+
+        if(이름) {
+            document.write("<h2>"+이름+" 님 안녕하세요?</h2>");
+        } else {
+            document.write("<h2>새로고침 후 이름을 다시 입력해주세요!</h2>");
+        }
+
+
+        // document.write("<h2>취소~~~</h2>") {
+        // }
+        
+        var id = "sungil";
+        var ps = "1234";
+
+        var user_id = prompt("id");
+        var user_id = prompt("pw");
+
+        if(id == user_id) {
+
+        } else { 
+            alert("아이디가 일치하지 않습니다.");
+            location.reload();
+        }
+
+        var i = 20;
+        while(i>= 10){
+            if(i % 2 == 0) {
+                document.write("p class='blue'>"+i+ "</p>");  
+            }else{
+                document.write("p class='blue'>"+i+ "</p>");  
+            }
+            i--;
+        }
+
+    </script>
+    
+</body>
+</html>
