@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>수목원</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="header">
+        <img src="#" alt="수목원 홍보 이미지" width="100%">
+        <div class="menu">
+            <ul>
+                <li><a href="about_us.mtml">수목원소개</a></li>
+                <li><a href="#"></a>방문안내</li>
+                <li><a href="#"></a>관람안내</li>
+                <li><a href="#"></a>개인/단체 체험신청</li>
+                <li><a href="#"></a>고객센터</li>
+                <li><a href="#"></a>공지사항</li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div class="info_title">+ 방문안내</div>
+        <br><br>
+        <div class="info_title_detail">관람 유의사항</div>
+        <div class="info contents">
+            
+        </div>
+    </div>
+</body>
+
+</html>
