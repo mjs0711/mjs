@@ -1,0 +1,13 @@
+1.Physical:Network Access  - Rs-232(Recommended Standard-232): 직렬 포트용
+                           - V.35: 케이블 랜선용
+2.Data Link:Network Access - FDDI(Fiber DistrButed Data Interface): 광섬유 케이블용
+
+3.Network:Internet - ARP(Address Resolution Protocol): IP의 MAC 주소 변환용
+                   - ICMP(Internet control Message Protocol): NW 제어용
+
+4.Transport:Transport - TCP(Transmission Comtrol Protocol): 패킷 송수신용
+                      - UDP(User Datagram Protocol): 패킷 단방향 송신용
+
+5.Session:Application      - TELNET(Telecommunication Network) :터미널 접속용 - SMTP(Simple Mail Transfer Protocol): 메일 송수신용
+6.Presentation:Application - IMAP(Iternet Messaging Access Protocol): 메일 송수신용 - FTP(File Transfer Protocol): 파일 송수신용
+7.Application:Application  - HTTP(Hypertext Transfer Protocol): 인터넷 브라우저용
