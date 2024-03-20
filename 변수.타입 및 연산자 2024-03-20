@@ -1,0 +1,23 @@
+package s21212_00;
+
+public class Overflow {
+
+	public static void main(String[] args) {
+		
+		int intValue = 10;
+		byte byteValue = (byte) intValue;
+		
+		int intValue1 = 65;
+		char charValue = (char) intValue1;
+		System.out.println("charValue:"+charValue); //chaValue 값?
+		
+		double doubleValue =3.14;
+		int intValue11 = (int) doubleValue;
+		System.out.println("intValue:"+intValue11); //intValue 값?	
+		
+		int intValue111 =10;
+		double doublValue =5.7;
+		int result = intValue111 + (int)doubleValue;
+		System.out.println("result:"+result); //result 값?		
+    }
+}
