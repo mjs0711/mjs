@@ -1,0 +1,3 @@
+a=b*c/d
+pre = a-(b*c)/d= -a(/*bc)/d = -a/*bcd
+post = a-(bc*)/d = abc*d/-
