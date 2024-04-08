@@ -1,0 +1,23 @@
+import java.util.*;
+import java.io.*;
+
+public class S21212_Gugudan_Game_V2 {
+	public static void main(String[] args) throws  Exception {
+		// TODO Auto-generated method stub
+		int x, y;
+		Random r= new Random();
+		
+		//랩퍼 클래스를 이용하여  int형으로 형변환
+		x= Math.abs(r.nextInt() % 9) + 1;
+		y= Math.abs(r.nextInt() % 9) + 1;
+		
+		//커맨드 라인으로부터 받는 외부 변수가 있다면
+		//main으로부터  받는 외부 입력된 자료의 수(길이) args.length
+		if ( args.length > 0) {
+			//외부 입력된 값을 랩퍼 클래스를 통하여 String 값을 integer 형으로 변경
+			x = Integer.parseInt(args[0]);
+		}
+
+	}
+
+}
