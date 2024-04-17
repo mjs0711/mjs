@@ -1,0 +1,29 @@
+package s21212_00;
+import java.util.Scanner;
+public class s21212_99_Pizza {
+	int size;
+	String type;
+	public s21212_99_Pizza() {
+		size = 12;
+		type = "슈퍼슈프림";
+	}
+
+	public s21212_99_Pizza(int s, String t) {
+		size = s;
+		type = t;
+		if (size >= 25) {
+			size = 2;
+			type = "+감자칩";
+		}
+	}
+
+	public static void main(String[] args)  {
+	   Scanner scanner = new Scanner(System.in);
+	   int sizes = scanner.nextInt();
+      s21212_99_Pizza obj1 = new s21212_99_Pizza();
+      System.out.println("sizel:"+ obj1.size + " type: "+obj1.type);
+      
+      s21212_99_Pizza obj2 = new s21212_99_Pizza(sizes , "포테이도");
+      System.out.println("size2:"+ obj2.size + " type: "+obj2.type);      
+   }
+}
