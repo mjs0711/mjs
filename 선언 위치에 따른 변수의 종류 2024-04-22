@@ -1,0 +1,25 @@
+package s21212_00;
+
+import java.util.Scanner;
+
+public class S21212_Atm {
+	static int bankAcount; // class value
+	int acount; // instance value
+
+	public static void main(String[] args) {
+		// 참조 변수
+		S21212_Atm a = new S21212_Atm();
+		S21212_Atm b = new S21212_Atm();			
+		
+		do {
+			Scanner scan = new Scanner(System.in);
+
+			System.out.println("\r메뉴 선택 : 1.입금 2.출금 9.종료");
+			int selectMenu = scan.nextInt();
+			if(selectMenu == 9) {
+				break;
+			}
+			if(selectMenu < 1 || selectMenu > 2) { 
+				continue;										
+		}	
+		}while(true);
