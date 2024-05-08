@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <style>
+      * {
+         margin: 0;
+      }
+
+      .header {
+         background-color: blue;
+         color: yellow;
+         text-align: center;
+         line-height: 50px;
+      }
+
+      caption {
+         text-align: right;
+      }
+
+      table {
+         width: 500px;
+         height: 300px;
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      table.tr,
+      th {
+         border: 1px solid black;
+         border-collapse: collapse;
+      }
+   </style>
+</head>
+
+<body>
+   <header class="header">
+      성일정보고 2학년 12반 코딩을 즐기자~!^^
+   </header>
+   <table border="1" , align="center">
+      <caption>2학년 12반 시간표</caption>
+      <tr>
+         <th>교시</th>
+         <th>월</th>
+         <th>화</th>
+         <th>수</th>
+         <th>목</th>
+         <th>금</th>
+         <td><input type="date" name="i_date"></td>
+      </tr>
+      <tr>
+         <th>1</th>
+         <th>시스</th>
+         <th>응개</th>
+         <th>시스</th>
+         <th>시스</th>
+         <th>문학</th>
+         <td><input type="text" name="i_1" size=10></td>
+      </tr>
+      <tr>
+         <th>2</td>
+         <th>영-I</th>
+         <th>응개</th>
+         <th>수인</th>
+         <th>시스</th>
+         <th>시스</th>
+         <td><input type="text" name="i_2" size=10></td>
+      </tr>
+      <tr>
+         <th>3</th>
+         <th>응개</th>
+         <th>미술</th>
+         <th>응개</th>
+         <th>응개</th>
+         <th>미술</th>
+         <td><input type="text" name="i_3" size=10></td>
+      </tr>
+      <tr>
+         <th>4</th>
+         <th>응개</th>
+         <th>시스</th>
+         <th>응개</th>
+         <th>응개</th>
+         <th>채탐</th>
+         <td><input type="text" name="i_4" size=10></td>
+      </tr>
+      <tr>
+         <th>5</th>
+         <th>수인</th>
+         <th>시스</th>
+         <th>한국</th>
+         <th>문학</th>
+         <th></th>
+         <td><input type="text" name="i_5" size=10></td>
+      </tr>
+      <tr>
+         <th>6</th>
+         <th>한국</th>
+         <th>영-I</th>
+         <th>영-I</th>
+         <th>영-I</th>
+         <th></th>
+         <td><input type="text" name="i_6" size=10></td>
+      </tr>
+      <tr>
+         <th>7</th>
+         <th>문학</th>
+         <th></th>
+         <th></th>
+         <th>한국</th>
+         <th></th>
+         <td><input type="text" name="i_7" size=10></td>
+      </tr>
+   </table>
+</body>
+
+</html>
