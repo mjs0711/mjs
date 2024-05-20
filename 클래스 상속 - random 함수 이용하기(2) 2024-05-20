@@ -1,0 +1,14 @@
+package test00;
+
+public class Random {
+
+	public static void main(String[] args) {
+		// 0.0~1.0 사이의 실수 난수 구하기
+		for (int i = 1; i<=5; i++) {
+			System.out.println(Math.random());
+		}
+		for (int i = 1; i<6; i++) {
+			System.out.println(Math.round(Math.random()*10)+1);
+		}
+	} 
+}
